@@ -184,7 +184,9 @@
             renderNewImg = true;
         });
         $('.save').click(function() {
-            saveImage();
+//             saveImage();
+            var dataURL = canvas.toDataURL('image/png');
+            $('.save').href = dataURL;
         });
         $('.dropUp .btn').click(function() {
             allowDraw = false;
