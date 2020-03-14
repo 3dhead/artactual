@@ -12,7 +12,7 @@ Examples:
 1. Download the repository.
 2. Open RealDraw.js and change the IP address in the line :
 `var url = 'http://192.168.1.41:8000/query';`
-to the IP address of your computer (assuming it is connected to the Internet).
+to http://<the IP address of your computer>/query (assuming it is connected to the Internet).
 3. Open RunwayML and create a new workspace with the Spade-COCO model. Run the model remotely or locally.
 4. [Run a local server](http://osxdaily.com/2018/07/30/start-web-server-python-3/) in your machine from the folder of the downloaded repository.
 5. Open http://{YOUR IP ADDRESS}:{YOUR PORT} in a browser and enjoy.
