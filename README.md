@@ -17,6 +17,7 @@ to http://<the IP address of your computer>/query (assuming it is connected to t
 4. [Run a local server](http://osxdaily.com/2018/07/30/start-web-server-python-3/) in your machine from the folder of the downloaded repository.
 5. Open http://{YOUR IP ADDRESS}:{YOUR PORT} in a browser and enjoy.
 
+If you are using a hosted model, change the link in index.html from RealDraw.js to RealDraw_Hosted.js, and edit the url in RealDraw_Hosted.js to that of your hosted model.
 ##### References:
 Nvidia Semantic Image Synthesis with Spade : https://github.com/NVlabs/SPADE
 RunwayML : https://runwayml.com/
