@@ -10,7 +10,7 @@ var newimg, strokeRecord;
 var renderNewImg = false;
 var bruSize = 20;
 var brushIncrement = 7;
-var url = 'http://192.168.1.37:8000/query';
+var url = "https://spade-coco-1368d406.hosted-models.runwayml.cloud/v1/query";
 var mouseRel = true;
 var loadAnim, createAnim;
 var first = true;
@@ -143,11 +143,11 @@ function sendImage() {
             "semantic_map": drawing.canvas.toDataURL('image/png64')
         };
 
-        fetch("https://spade-coco-1368d406.hosted-models.runwayml.cloud/v1/query", {
+        fetch(url, {
                 method: "POST",
                 headers: {
                     "Accept": "application/json",
-                    "Authorization": "Bearer +H8RtDL3nznR7nyveN6bKQ==",
+                    "Authorization": "Bearer +H8RtDL3nynR7nzveN6bKQ==",
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify(inputs)
